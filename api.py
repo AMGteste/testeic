@@ -10,7 +10,7 @@ import pickle
 app = FastAPI()
 
 # Carregar o modelo salvo
-model = load_model("flower_model.h5")
+model = load_model("flower_modelteste.h5")
 
 model.compile(optimizer=Adam(learning_rate=0.00122195324402186004), 
               loss='sparse_categorical_crossentropy', 

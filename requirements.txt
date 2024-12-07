@@ -1,7 +1,7 @@
 fastapi
 uvicorn
 python-multipart
-tensorflow==2.14.0
-numpy
+tensorflow>=2.10
+numpy<2
 opencv-python
 scikit-learn==1.5.1
